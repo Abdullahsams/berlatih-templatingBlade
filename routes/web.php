@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function() {
-  return view('master');
-}); 
+  return view('tables');
+});
+
+Route::get('/data-tables', function() {
+  return view('datatables');
+});
